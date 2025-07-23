@@ -10,7 +10,7 @@ import com.muratyildirim.spring_data_jpa.stoklar.Stoklar;
 @Entity
 @Table(name = "DepoDetayliEnvanter")
 @Immutable
-@Subselect("SELECT * FROM DepoDetayliEnvanter")//burada view adi yazilir bu tablo Entity class view e karsilik geliyor
+@Subselect("SELECT * FROM DepoDetayliEnvanter")//burada view adi yazilir bu Entity class view e karsilik geliyor
 public class DepodetayliEnvanter {
 
 	@Id
