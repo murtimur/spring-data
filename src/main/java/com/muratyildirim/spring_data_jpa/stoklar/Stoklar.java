@@ -436,4 +436,5 @@ public class Stoklar {
   public void setStokRBKList(List<StokRBK> stokRBKList) {
     this.stokRBKList = stokRBKList;
   }
-}
+  
+} 
