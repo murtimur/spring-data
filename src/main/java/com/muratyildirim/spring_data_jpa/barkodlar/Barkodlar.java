@@ -1,6 +1,5 @@
 package com.muratyildirim.spring_data_jpa.barkodlar;
 
-
 import com.muratyildirim.spring_data_jpa.birimler.Birimler;
 
 import jakarta.persistence.CascadeType;
